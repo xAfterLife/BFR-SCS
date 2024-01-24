@@ -7,6 +7,13 @@
 		<BaseOutputPath>E:\Programming\Repositorys\Github\C#\BFR-SCS\bin</BaseOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="NetCoreServer" Version="8.0.3" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="NetCoreServer" Version="8.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="BackgroundServices\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Core\Core.csproj" />
 	</ItemGroup>
 </Project>

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{769A13BA-E17D-473D-9D40-978FAF64A6DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginServer", "LoginServer\LoginServer.csproj", "{DDC3213A-3F09-4674-AFD3-AC7D1B80EF7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginServer", "LoginServer\LoginServer.csproj", "{DDC3213A-3F09-4674-AFD3-AC7D1B80EF7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{4EB411B4-10AE-4178-8653-286D92CD9012}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{E35330E4-870A-4CE6-9B72-D82639BB524B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{DDC3213A-3F09-4674-AFD3-AC7D1B80EF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC3213A-3F09-4674-AFD3-AC7D1B80EF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC3213A-3F09-4674-AFD3-AC7D1B80EF7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EB411B4-10AE-4178-8653-286D92CD9012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EB411B4-10AE-4178-8653-286D92CD9012}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EB411B4-10AE-4178-8653-286D92CD9012}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EB411B4-10AE-4178-8653-286D92CD9012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35330E4-870A-4CE6-9B72-D82639BB524B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35330E4-870A-4CE6-9B72-D82639BB524B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35330E4-870A-4CE6-9B72-D82639BB524B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35330E4-870A-4CE6-9B72-D82639BB524B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
